@@ -8,7 +8,7 @@ pipeline {
                         $class: 'GitSCM',
                         branches: [[name: '*/main']],
                         userRemoteConfigs: [[
-                            url: 'https://github.com/teciedesk/Jenkins_CI_CD_Mini_Project.git',
+                            url: 'https://github.com/teciedesk/JENKINS-CI-CD-MINI-PROJECT.git',
                             credentialsId: 'github-pat'
                         ]]
                     ])
